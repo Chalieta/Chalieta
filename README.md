@@ -1,8 +1,8 @@
 ### Welcome.
-##### I'm Audrey.
+I'm Audrey.
 
 <!--
-**Chalieta/Chalieta** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Chalieta/Chalieta** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.-->
 
 I'm a full-stack developer. I love working with MongoDB, Express, React, and Node.
 
