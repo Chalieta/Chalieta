@@ -17,28 +17,30 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cabin:700&amp;display=swap">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.css">
     <link rel="stylesheet" href="assets/css/Projects-Grid-Horizontal-images.css">
+    <link rel="stylesheet" href="assets/css/Simple-Slider-Simple-Slider.css">
 </head>
 
 <body id="page-top" data-bs-spy="scroll" data-bs-target="#mainNav" data-bs-offset="77">
-    <nav class="navbar navbar-light navbar-expand-md fixed-top" id="mainNav">
+    <nav class="navbar navbar-light navbar-expand-md fixed-top" id="mainNav" style="background: var(--bs-navbar-color);border-style: none;height: 72px;">
         <div class="container"><a class="navbar-brand">audreylia</a><button data-bs-toggle="collapse" class="navbar-toggler navbar-toggler-right" data-bs-target="#navbarResponsive" type="button" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation" value="Menu"><i class="fa fa-bars"></i></button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item nav-link"><a class="nav-link active" href="#about">About</a></li>
-                    <li class="nav-item nav-link"><a class="nav-link" href="#download">PROJECTS</a></li>
+                    <li class="nav-item nav-link"><a class="nav-link" href="#projects">PROJECTS</a></li>
                     <li class="nav-item nav-link"><a class="nav-link" href="#contact">contact</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <header class="masthead" style="background-image:url('assets/img/intro-bg.jpg');">
+    <header class="masthead" style="background: url(&quot;assets/img/ocean.jpg&quot;);background-size: cover;">
         <div class="intro-body" style="backdrop-filter: brightness(97%);">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
                         <h1 class="brand-heading">CHALIETA AUDREYLIA</h1>
-                        <p class="intro-text">A Full-Stack Developer</p><a class="btn btn-link btn-circle" role="button" href="#about"><i class="fa fa-angle-double-down animated"></i></a>
+                        <p class="intro-text">Software Development Engineer</p><a class="btn btn-link btn-circle" role="button" href="#about"><i class="fa fa-angle-double-down animated"></i></a>
                     </div>
                 </div>
             </div>
@@ -46,24 +48,27 @@
     </header>
     <section class="text-center content-section" id="about">
         <div class="container">
-            <div class="row">
+            <div class="row row-cols-1">
                 <div class="col-lg-8 mx-auto" data-aos="fade-down" data-aos-duration="300" data-aos-delay="50">
                     <h2>About ME</h2>
-                    <p>My name is Chalieta Audreylia. I go by my last name Audreylia or Audrey for short. I’m a Computer Science student at the University of North Texas graduating in May 2023. I have a passion for web development as it allows me to tap into both creativity and critical thinking.</p>
-                    <p>I, personally, enjoy working with MERN (MongoDB Express React Node) stack. Moreover, I love exploring REST APIs and integrating them into my projects. I have worked with NASA EONET API, Mailchimp API, Spotify API, Twitter API, Google Maps API, and many more.</p>
-                    <p>I would love opportunities to work as a front-end, back-end, or full-stack developer. Explore my projects and feel free to reach out to me!</p>
+                    <p>My name is Chalieta Audreylia. I go by my last name Audreylia or Audrey for short. I’m a Computer Science student at the University of North Texas graduating in May 2023.</p>
+                    <p>I have a passion for web development. I enjoy working with MERN (MongoDB Express React Node) stack. Moreover, I love exploring REST APIs and integrating them into my projects. I have worked with NASA EONET API, Mailchimp API, Spotify API, Twitter API, Google Maps API, and many more.</p>
+                    <p>I would love the opportunities to work as a front-end, back-end, or full-stack developer. Explore my projects and feel free to reach out to me!</p>
+                </div>
+                <div class="col" style="margin-top: 16px;margin-right: 0px;">
+                    <h2 style="margin-bottom: 16px;">skills</h2><img src="assets/img/icons8-javascript-144.png" width="192" height="192" style="width: 100px;height: 100px;margin: 16px;"><img src="assets/img/icons8-java-144.png" width="192" height="192" style="width: 100px;height: 100px;margin: 16px;"><img src="assets/img/icons8-python-144.png" width="192" height="192" style="width: 100px;height: 100px;margin: 16px;"><img src="assets/img/icons8-c-programming-144.png" width="192" height="192" style="width: 100px;height: 100px;margin: 16px;"><img src="assets/img/icons8-bootstrap-144.png" width="192" height="192" style="width: 100px;height: 100px;margin: 16px;"><img src="assets/img/icons8-mongodb-144.png" width="192" height="192" style="width: 100px;height: 100px;margin: 16px;"><img src="assets/img/icons8-react-120.png" width="192" height="192" style="width: 100px;height: 100px;margin: 16px;">
                 </div>
             </div>
         </div>
     </section>
-    <section class="text-center download-section content-section" id="download" style="background: url(&quot;assets/img/bw.jpg&quot;);">
+    <section class="text-center download-section content-section" id="projects" style="background: url(&quot;assets/img/sand.jpg&quot;) center / cover no-repeat;padding: 150px 0px;">
         <div class="container py-4 py-xl-5">
             <div class="row mb-5">
                 <div class="col-md-8 col-xl-6 text-center mx-auto">
                     <h2>Projects</h2>
                 </div>
             </div>
-            <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3 d-xxl-flex justify-content-xxl-center">
+            <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3 d-lg-flex d-xl-flex d-xxl-flex justify-content-lg-center justify-content-xl-center justify-content-xxl-center">
                 <div class="col">
                     <div><img class="rounded img-fluid d-block w-100 fit-cover" style="height: 250px;" src="assets/img/ndt.png" width="456">
                         <div class="py-4">
@@ -83,15 +88,15 @@
             </div>
         </div>
     </section>
-    <section class="text-center content-section" id="contact">
+    <section class="text-center content-section" id="contact" style="padding: 150px 0px;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 mx-auto">
                     <h2>Contact ME</h2>
                     <ul class="list-inline banner-social-buttons">
-                        <li class="list-inline-item">&nbsp;<a class="btn btn-primary btn-lg btn-default" role="button" href="https://chalietaudreylia@gmail.com" target="_blank"><i class="fa fa-envelope-square fa-fw"></i><span class="network-name">email</span></a></li>
-                        <li class="list-inline-item">&nbsp;<a class="btn btn-primary btn-lg btn-default" role="button" href="https://linkedin.com/in/chalieta" target="_blank"><i class="fa fa-linkedin-square fa-fw"></i><span class="network-name">linkedin</span></a></li>
-                        <li class="list-inline-item">&nbsp;<a class="btn btn-primary btn-lg btn-default" role="button" href="https://github.com/Chalieta" target="_blank"><i class="fa fa-github fa-fw"></i><span class="network-name">&nbsp;github</span></a></li>
+                        <li class="list-inline-item">&nbsp;<a class="btn btn-primary btn-lg btn-default" role="button" href="https://chalietaudreylia@gmail.com" target="_blank" style="width: 150px;"><i class="fa fa-envelope-square fa-fw"></i><span class="network-name">email</span></a></li>
+                        <li class="list-inline-item">&nbsp;<a class="btn btn-primary btn-lg btn-default" role="button" href="https://linkedin.com/in/chalieta" target="_blank" style="width: 150px;"><i class="fa fa-linkedin-square fa-fw"></i><span class="network-name">linkedin</span></a></li>
+                        <li class="list-inline-item" style="margin-right: 8px;margin-bottom: 20px;">&nbsp;<a class="btn btn-primary btn-lg btn-default" role="button" href="https://github.com/Chalieta" target="_blank" style="width: 150px;"><i class="fa fa-github fa-fw"></i><span class="network-name">&nbsp;github</span></a></li>
                     </ul>
                 </div>
             </div>
@@ -107,6 +112,8 @@
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="assets/js/grayscale.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.4.8/swiper-bundle.min.js"></script>
+    <script src="assets/js/Simple-Slider.js"></script>
 </body>
 
 </html>
