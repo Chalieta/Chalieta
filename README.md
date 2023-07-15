@@ -1,7 +1,7 @@
 ### Welcome.
 My name is Audrey.
 
-I'm a full-stack developer, and I love working with MongoDB, Express, React, and Node.
+I'm a software engineer, and I'm experienced with MongoDB, Express, React, and Node.
 
 How to reach me:
 - Email - chalietaudreylia@gmail.com
